@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Techies world</title>
+    <link rel="stylesheet" href="index.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400&display=swap" rel="stylesheet">
+<script src="https://kit.fontawesome.com/698de5842b.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <section class="header">
+        <nav>
+            <a href="index.html"><img src="img/logo.jpeg"></a>
+            <div class="nav-links" id="navLinks">
+                <i class="fa-solid fa-circle-xmark" onclick="hidemenu()"></i>
+                <ul>
+                    <li><a href="home.html">HOME</a></li>
+                    <li><a href="about.html">ABOUT</a></li>
+                    <li><a href="blog.html">BLOG</a></li>
+                    <li><a href="courses.html">COURSES</a></li>
+                    <li><a href="contact.html">CONTACT</a></li>
+                </ul>
+            </div>
+            <i class="fa-solid fa-bars" onclick="showmenu()"></i>
+        </nav>
+
+        <div class="text-box">
+            <h1>OUR COURSES</h1>
+        </div>
+    </section>
+<!-- course -->
+<section class="COURSES">
+    <h1>Courses we offer</h1>
+    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Tempora vero magnam velit iusto nostrum reprehenderit reiciendis, beatae vitae deleniti, numquam mollitia ex soluta enim sit voluptate odit! Perferendis, deleniti similique!</p>
+
+    <div class="row">
+        <div class="course-col">
+            <h3>full stack web development</h3>
+            <P>Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempore cumque totam ipsum veritatis cupiditate, deserunt similique libero a voluptatem officia commodi nemo harum molestiae quae possimus vitae fugit! Incidunt, magnam.</P>
+
+        </div>
+        <div class="course-col">
+            <h3>mobile app</h3>
+            <P>Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempore cumque totam ipsum veritatis cupiditate, deserunt similique libero a voluptatem officia commodi nemo harum molestiae quae possimus vitae fugit! Incidunt, magnam.</P>
+        </div>
+            <div class="course-col">
+                <h3>machine learning</h3>
+                <P>Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempore cumque totam ipsum veritatis cupiditate, deserunt similique libero a voluptatem officia commodi nemo harum molestiae quae possimus vitae fugit! Incidunt, magnam.</P>
+    </div>
+</div>
+
+
+<!-- our facilities -->
+<section class="facilities">
+    <h1>Our facilities</h1>
+    <p>we have a large range of facilities in our community</p>
+    <div class="row">
+        <div class="facilitie-col">
+            <img src="img/comp lab.webp" height="60%">
+            <h3>e-libary</h3>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempore possimus eaque voluptatum debitis. Reiciendis veniam dolorem tempore, quia incidunt odit sapiente corporis possimus officia laudantium. Omnis minus nobis perferendis quibusdam!</p>
+        </div>
+        <div class="facilitie-col">
+            <img src="img/fied.jpg" height="60%">
+            <h3>field for sports</h3>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempore possimus eaque voluptatum debitis. Reiciendis veniam dolorem tempore, quia incidunt odit sapiente corporis possimus officia laudantium. Omnis minus nobis perferendis quibusdam!</p>
+        </div>
+        
+        <div class="facilitie-col">
+            <img src="img/caf.webp" height="290px">
+            <h3>cafeteria</h3>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempore possimus eaque voluptatum debitis. Reiciendis veniam dolorem tempore, quia incidunt odit sapiente corporis possimus officia laudantium. Omnis minus nobis perferendis quibusdam!</p>
+        </div>
+    </div>
+</section>
+
+<!-- footer -->
+<section class="">
+    <h4>about us</h4>
+    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Atque hic tempora earum natus totam minima obcaecati cumque laudantium <br> ea ducimus nobis pariatur ipsum odio esse temporibus, doloribus voluptatum ab nostrum!</p>
+    <div class="icons">
+        <i class="fa fa-facebook"></i>
+        <i class="fa fa-instagram"></i>
+        <i class="fa fa-twitter"></i>
+        <i class="fa fa-whatsapp"></i>
+        <i class="fa fa-snapchat"></i>
+    </div>
+    <p>made with <i class="fa fa-heart-o"></i>Treasure</p>
+</section>
+
+
+<!-- javascript for toggle menu -->
+    <script>
+        var navLinks =document.getElementById("navLinks");
+        function showmenu(){
+            navLinks.style.right = "0";
+        }
+        function hidemenu(){
+            navLinks.style.right = "-200px";
+        }
+    </script>
+</body>
+</html>

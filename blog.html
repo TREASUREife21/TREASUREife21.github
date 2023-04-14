@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Techies world</title>
+    <link rel="stylesheet" href="index.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400&display=swap" rel="stylesheet">
+<script src="https://kit.fontawesome.com/698de5842b.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <section class="sub-header">
+        <nav>
+            <a href="index.html"><img src="img/logo.jpeg"></a>
+            <div class="nav-links" id="navLinks">
+                <i class="fa-solid fa-circle-xmark" onclick="hidemenu()"></i>
+                <ul>
+                    <li><a href="home.html">HOME</a></li>
+                    <li><a href="about.html">ABOUT</a></li>
+                    <li><a href="blog.html">BLOG</a></li>
+                    <li><a href="courses.html">COURSES</a></li>
+                    <li><a href="contact.html">CONTACT</a></li>
+                </ul>
+            </div>
+            <i class="fa-solid fa-bars" onclick="showmenu()"></i>
+        </nav>
+
+        <div class="text-box">
+            <h1>Our certificate and sponsorships</h1>
+    </div>
+    </section>
+          
+    <!-- blog page content -->
+    <section class="blog-cont">
+        <div class="row">
+            <div class="blog-left">
+                <img src="img/certi.webp">
+                <h2>certificate and online sponsors for academic session 2023</h2>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quo alias illum sit consequuntur omnis mollitia rerum doloremque atque, optio eligendi possimus repellendus fugiat dolorum, corrupti est assumenda! Est, iusto repellat!</p>
+                <br>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Pariatur suscipit expedita quo aspernatur ullam sequi ipsum voluptatibus ipsam. Reprehenderit deleniti quae facilis quos enim dolor totam quo maiores dicta cupiditate.</p>
+
+                <div class="comment-box">
+                    <h3>leave a comment</h3>
+                    <form class="comment-form">
+                        <input type="text" placeholder="enter name">
+                        <input type="email" placeholder="enter mail">
+                        <textarea rows="s" placeholder="your comment"></textarea>
+                        <button type="submit" class="hero-btn red-btn">post comment</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+        <div class="blog-right">
+            <h3>post categories</h3>
+            <div>
+                <span>data analytics</span>
+                <span>21</span>
+            </div>
+            <div>
+                <span>data science</span>
+                <span>21</span>
+            </div>
+            <div>
+                <span>mathematics</span>
+                <span>35</span>
+            </div>
+            <div>
+                <span>statistics</span>
+                <span>20</span>
+            </div>
+            <div>
+                <span>divide and conquer</span>
+                <span>18</span>
+            </div>
+        </div>
+    </section>
+<!-- footer -->
+<section class="footer">
+    <h4>about us</h4>
+    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Atque hic tempora earum natus totam minima obcaecati cumque laudantium <br> ea ducimus nobis pariatur ipsum odio esse temporibus, doloribus voluptatum ab nostrum!</p>
+    <div class="icons">
+        <i class="fa fa-facebook"></i>
+        <i class="fa fa-instagram"></i>
+        <i class="fa fa-twitter"></i>
+        <i class="fa fa-whatsapp"></i>
+        <i class="fa fa-snapchat"></i>
+    </div>
+    <p>made with <i class="fa fa-heart-o"></i>Treasure</p>
+</section>
+
+
+<!-- javascript for toggle menu -->
+    <script>
+        var navLinks =document.getElementById("navLinks");
+        function showmenu(){
+            navLinks.style.right = "0";
+        }
+        function hidemenu(){
+            navLinks.style.right = "-200px";
+        }
+    </script>
+</body>
+</html>
